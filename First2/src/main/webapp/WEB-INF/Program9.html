@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Program 9</title>
+</head>
+<body bgcolor=orange>
+<form method="post" name="form1"
+action="http://localhost:8080/First2/Servlet9">
+<center>
+<b><br/><br/>
+Enter Username : <input type="text" name="uname" size="10"/>
+<br/>
+Enter Password : <input type="password" name="pname" size="10"/>
+<br/><br/>
+<input type="button" value="Submit" onclick="submit()"/>
+</center>
+<script type="text/javascript">
+function validate(){
+if(document.form1.uname.value =="" || document.from1.pname.value ==""){
+alert("Fields cannot be blank");
+return;
+}
+}
+</script>
+</form>
+</body>
+</html>
